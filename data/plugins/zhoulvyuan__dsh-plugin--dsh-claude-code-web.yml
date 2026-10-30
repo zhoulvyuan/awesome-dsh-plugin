@@ -1,7 +1,7 @@
 url: https://github.com/zhoulvyuan/dsh-plugin/tree/master/dsh-claude-code-web
 name: zhoulvyuan/dsh-plugin#dsh-claude-code-web
 category: agi
-tarball: https://github.com/zhoulvyuan/dsh-plugin/releases/download/v0.1.2/dsh-claude-code-web-0.1.2.tgz
+tarball: https://github.com/zhoulvyuan/dsh-plugin/releases/download/v0.1.2/zhoulvyuan-dsh-claude-code-web-0.1.2.tgz
 description:
   en: Embeds Claude Code as a workbench in DSH, serving an in-host HTTP/WebSocket backend with a sidebar entry and a draggable overlay panel. The panel can be popped out into a standalone browser window or tab that lives outside the DSH interface — a full-window, light-themed page running on a React 18 runtime shipped with the plugin, so it works offline with no CDN. Built-in loopback trust checks reject cross-origin and cross-site requests on the plugin's own HTTP and WebSocket endpoints, so a third-party page cannot drive your local Claude session. Manages workspaces, sessions, streaming replies, tool calls, extended thinking, image attachments, in-conversation search and an outline, and renders Mermaid diagrams offline.
   zh: 在 DSH 内嵌入 Claude Code 工作台，由宿主内的 HTTP/WebSocket 服务驱动，提供侧边栏入口与可拖动的悬浮面板。面板可弹出为独立浏览器窗口或标签页，脱离 DSH 界面独立使用——全窗口、浅色主题，React 18 运行时随插件分发，离线可用、无需 CDN。内置本机 loopback 信任检查，插件自身的 HTTP 与 WebSocket 接口拒绝跨源、跨站请求，第三方网页无法驱动你的本地 Claude 会话。支持工作区与会话管理、流式回复、工具调用、扩展思考、图片附件、会话内搜索与目录，并可离线渲染 Mermaid 图表。
